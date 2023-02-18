@@ -14,7 +14,8 @@ N/A
 
 ## Usage
 
-To use the quiz application, go to the link below:
+To use the quiz application, go to the link here:
+ https://inputname-jy.github.io/You-Thought-Huh/
 
 
 To begin the quiz click the "Start Quiz" button.
