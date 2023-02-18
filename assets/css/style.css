@@ -1,0 +1,118 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --blue: (rgb(52, 143, 223));
+}
+
+header{
+    margin-top: 50px;
+}
+ a {
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 20px;
+
+ }
+
+ a:hover {
+    background-color: rgb(9, 231, 202);
+    color: black;
+ }
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    border-width: 2px;
+    border-color:  var(--blue);
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 75px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    line-height: 3rem;
+    padding-bottom: 0;
+    bottom: 150px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 4rem;
+    padding-bottom: 0;
+    bottom: 150px;
+}
+
+
+.card p {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: bold;
+}
+
+ .card #start-button {
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    background-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(52, 143, 223);
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 38%;
+    margin-top: 10px;
+}
+
+
+#start-button:hover {
+    background-color: rgb(52, 143, 223);
+    color: #fff;
+    border-width: 0;
+}
+
+body {
+   background-color: #f0ebdb;
+   color: rgb(52, 143, 223);
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.display #options {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(52, 143, 223);
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
